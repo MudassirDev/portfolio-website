@@ -4,6 +4,25 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Mudassir Bilal — Web Developer</title>
+<meta name="description" content="Web developer who builds custom backend solutions that replace expensive SaaS tools — saving clients thousands per year." />
+<meta name="author" content="Mudassir Bilal" />
+
+<meta property="og:title" content="Mudassir Bilal — Web Developer" />
+<meta property="og:description" content="I build custom web solutions that replace expensive SaaS subscriptions. Two clients saved $3k and $14.7k per year." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mudassirbilal.com" />
+<meta property="og:image" content="https://mudassirbilal.com/og-image.png" />
+<meta property="og:site_name" content="Mudassir Bilal" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Mudassir Bilal — Web Developer" />
+<meta name="twitter:description" content="I build custom web solutions that replace expensive SaaS subscriptions. Two clients saved $3k and $14.7k per year." />
+<meta name="twitter:image" content="https://mudassirbilal.com/og-image.png" />
+
+<link rel="canonical" href="https://mudassirbilal.com" />
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23e8f0ec' stroke='%232a5c45' stroke-width='2'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='15' fill='%232a5c45'>MB</text></svg>" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -52,10 +71,33 @@
   }
 
   .nav-name {
-    font-family: var(--serif);
-    font-size: 1.1rem;
-    color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
     text-decoration: none;
+    color: var(--black);
+  }
+
+  .nav-mark {
+    width: 34px;
+    height: 34px;
+    background: var(--accent-light);
+    border: 1.5px solid var(--accent);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--serif);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--accent);
+    flex-shrink: 0;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-name-text {
+    font-family: var(--serif);
+    font-size: 1.05rem;
     letter-spacing: 0.01em;
   }
 
@@ -490,7 +532,10 @@
 <body>
 
 <nav>
-  <a href="#" class="nav-name">Mudassir Bilal</a>
+  <a href="#" class="nav-name">
+    <div class="nav-mark">MB</div>
+    <span class="nav-name-text">Mudassir Bilal</span>
+  </a>
   <ul class="nav-links">
     <li><a href="#work">Work</a></li>
     <li><a href="#services">Services</a></li>
@@ -516,8 +561,8 @@
       <div class="stat-label">saved per year for another client — a one-time build that paid for itself in months</div>
     </div>
     <div class="stat-block">
-      <div class="stat-num">0</div>
-      <div class="stat-label">ongoing subscription fees for either client after I was done</div>
+      <div class="stat-num">No lock-in</div>
+      <div class="stat-label">you host it yourself on a VPS — no vendor, no recurring SaaS fee, no dependency on anyone but you</div>
     </div>
   </div>
 </section>
@@ -532,14 +577,14 @@
       <div class="case-saving">$14,700 / yr</div>
       <div class="case-title">Saved annually</div>
       <div class="case-divider"></div>
-      <p class="case-desc">A small online store was paying a monthly SaaS subscription for functionality built directly into their storefront. I replaced it with a custom backend service they now own entirely — no recurring cost, no vendor dependency, no compromise on features.</p>
+      <p class="case-desc">A online store was paying a monthly SaaS subscription for functionality built directly into their storefront. I replaced it with a custom backend service they now own entirely — no recurring cost, no vendor dependency, no compromise on features.</p>
     </div>
     <div class="case-card">
       <span class="case-tag">Product Business</span>
       <div class="case-saving">$3,000 / yr</div>
       <div class="case-title">Saved annually</div>
       <div class="case-divider"></div>
-      <p class="case-desc">A physical product company was about to commit to a $3k/year tool for their website. We built the same functionality internally in a fraction of the time — before they ever paid for it. The build cost paid for itself before the first subscription renewal would have hit.</p>
+      <p class="case-desc">A physical product company was about to commit to a $3k/year tool for their website. I built the same functionality internally in a fraction of the time — before they ever paid for it. The build cost paid for itself before the first subscription renewal would have hit.</p>
     </div>
   </div>
 </section>
@@ -603,17 +648,17 @@
     <p class="contact-intro">I work with small business owners and in-house teams who suspect they're overpaying for software — but aren't sure what to do about it. If that sounds like you, reach out. The conversation is free.</p>
   </div>
   <div class="contact-right">
-    <a href="mailto:hello@mudassirbilal.com" class="contact-link">
+    <a href="mailto:mudassir@mudassirbilal.com" class="contact-link">
       <svg class="contact-link-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
         <rect x="2" y="4" width="16" height="12" rx="2"/>
         <path d="M2 7l8 5 8-5"/>
       </svg>
       <div>
         <span class="contact-label">Email</span>
-        <span class="contact-value">hello@mudassirbilal.com</span>
+        <span class="contact-value">mudassir@mudassirbilal.com</span>
       </div>
     </a>
-    <a href="https://www.upwork.com/freelancers/mudassir" target="_blank" class="contact-link">
+    <a href="https://www.upwork.com/freelancers/~014031e2f0052bf825" target="_blank" class="contact-link">
       <svg class="contact-link-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
         <circle cx="10" cy="10" r="8"/>
         <path d="M7 10.5c0 1.5 1 2.5 2.5 2.5 2 0 3.5-1.5 3.5-4V7"/>
@@ -637,7 +682,7 @@
 </section>
 
 <footer>
-  <p>© 2025 Mudassir Bilal. All rights reserved.</p>
+  <p>© 2026 Mudassir Bilal. All rights reserved.</p>
   <p>mudassirbilal.com</p>
 </footer>
 
